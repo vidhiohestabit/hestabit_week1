@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-02-02T18:10:46.401Z",
+  "systemInfo": {
+    "hostname": "hestabit-Latitude-3450",
+    "diskSpace": "437G",
+    "openPorts": [],
+    "defaultGateway": "192.168.1.1",
+    "loggedInUsers": 2
+  },
+  "runtimeMetrics": {
+    "cpuUsage": {
+      "user": 157967,
+      "system": 54332
+    },
+    "resourceUsage": {
+      "userCPUTime": 158405,
+      "systemCPUTime": 54483,
+      "maxRSS": 48636,
+      "sharedMemorySize": 0,
+      "unsharedDataSize": 0,
+      "unsharedStackSize": 0,
+      "minorPageFault": 4808,
+      "majorPageFault": 0,
+      "swappedOut": 0,
+      "fsRead": 0,
+      "fsWrite": 0,
+      "ipcSent": 0,
+      "ipcReceived": 0,
+      "signalsCount": 0,
+      "voluntaryContextSwitches": 57,
+      "involuntaryContextSwitches": 17
+    }
+  }
+}
