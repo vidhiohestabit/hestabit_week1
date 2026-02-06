@@ -1,0 +1,17 @@
+#!/bin/sh
+
+echo "🔍 Running pre-commit checks..."
+
+# Block .env
+if [ -f ".env" ]; then
+  echo "❌ ERROR: .env file detected. Remove it before commit."
+  exit 1
+fi
+
+# Block log files
+if git status --porcelain | grep logs/; then
+  echo "❌ ERROR: Log files detected. Logs must not be committed."
+  exit 1
+fi
+
+echo "✅ Pre-commit checks passed."
