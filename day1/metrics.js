@@ -1,8 +1,7 @@
-
 function getRuntimeMetrics() {
   return {
     cpuUsage: process.cpuUsage(),
-    resourceUsage: process.resourceUsage()
+    resourceUsage: process.resourceUsage(),
   };
 }
 

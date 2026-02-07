@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
       JSON.stringify({
         message: "pong",
         timestamp: new Date().toISOString(),
-      })
+      }),
     );
     return;
   }
@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
     res.end(
       JSON.stringify({
         count: counter,
-      })
+      }),
     );
     return;
   }
@@ -41,7 +41,7 @@ const server = http.createServer((req, res) => {
   res.end(
     JSON.stringify({
       error: "Route not found",
-    })
+    }),
   );
 });
 

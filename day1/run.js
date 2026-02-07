@@ -26,12 +26,14 @@ try {
   const logData = {
     timestamp: new Date().toISOString(),
     systemInfo,
-    runtimeMetrics
+    runtimeMetrics,
   };
 
-  fs.writeFileSync(path.join(logDir, "day1-sysmetrics.json"), JSON.stringify(logData, null, 2));
+  fs.writeFileSync(
+    path.join(logDir, "day1-sysmetrics.json"),
+    JSON.stringify(logData, null, 2),
+  );
   console.log("\nSaved to logs/day1-sysmetrics.json");
-
 } catch (error) {
   console.error("ERROR IN run.js:", error.message);
 }

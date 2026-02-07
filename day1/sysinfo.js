@@ -17,7 +17,7 @@ function getSysInfo() {
   let openPorts = [];
   try {
     const output = execSync(
-      "lsof -i -P -n | grep LISTEN | awk '{print $9}' | head -n 5"
+      "lsof -i -P -n | grep LISTEN | awk '{print $9}' | head -n 5",
     ).toString();
     openPorts = output.split("\n").filter(Boolean);
   } catch {}
@@ -25,9 +25,9 @@ function getSysInfo() {
   // Default Gateway
   let defaultGateway = "N/A";
   try {
-    defaultGateway = execSync(
-      "ip route | grep default | awk '{print $3}'"
-    ).toString().trim();
+    defaultGateway = execSync("ip route | grep default | awk '{print $3}'")
+      .toString()
+      .trim();
   } catch {}
 
   // Logged-in users count
@@ -41,7 +41,7 @@ function getSysInfo() {
     diskSpace,
     openPorts,
     defaultGateway,
-    loggedInUsers
+    loggedInUsers,
   };
 }
 
