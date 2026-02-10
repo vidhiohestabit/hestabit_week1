@@ -131,7 +131,8 @@ checksums.sha1
 
 pre-commit hook (failed):
 
-![alt text](<Screenshot from 2026-02-06 23-16-15.png>)
+![Pre-commit hook failed](images/precommit-failed.png)
+
 
 pre-commit hook (passed):
 
