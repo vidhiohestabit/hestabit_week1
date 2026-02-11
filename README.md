@@ -144,3 +144,179 @@ corn job:-
 
 
 
+
+
+
+
+
+📘 WEEK 1 — ENGINEERING FOUNDATIONS (Combined Topics)
+🔹 System & OS Internals
+
+System information retrieval using Node.js
+
+Hostname detection
+
+Disk usage inspection
+
+Open ports inspection
+
+Default gateway detection
+
+Logged-in users tracking
+
+OS module usage
+
+Child processes (exec, spawn)
+
+Network inspection fundamentals
+
+System-level debugging mindset
+
+🔹 Node.js Runtime & Performance
+
+Process lifecycle understanding
+
+process.cpuUsage()
+
+process.resourceUsage()
+
+Memory usage tracking
+
+Execution time measurement
+
+Logging metrics to JSON
+
+Observability basics
+
+Performance awareness
+
+🔹 CLI Tool Development
+
+Building command-line tools in Node.js
+
+Argument parsing
+
+File system operations (fs)
+
+Reading and writing files
+
+Buffer vs string handling
+
+Counting lines, words, characters
+
+Removing duplicate lines
+
+Output file generation
+
+JSON logging
+
+Tool usability design
+
+🔹 Asynchronous Programming & Concurrency
+
+Promises
+
+Async/Await
+
+Parallel processing (Promise.all)
+
+Non-blocking I/O
+
+Execution performance comparison
+
+Resource monitoring during parallel tasks
+
+🔹 Git Internals & Version Control
+
+Commit lifecycle
+
+Reset vs Revert
+
+Git bisect (binary search debugging)
+
+Identifying breaking commits
+
+Branching strategies
+
+Release branch creation
+
+Cherry-picking specific commits
+
+Stashing changes safely
+
+Commit graph visualization
+
+Clean workflow practices
+
+🔹 HTTP & API Forensics
+
+HTTP request/response lifecycle
+
+Status codes
+
+HTTP headers
+
+cURL usage (-v)
+
+API inspection (GitHub API)
+
+Rate limiting
+
+ETag and caching
+
+Pagination & Link headers
+
+REST fundamentals
+
+Postman collections
+
+Header analysis
+
+🔹 Backend Server Development
+
+Building HTTP server in Node.js
+
+Routing
+
+Handling requests & responses
+
+Returning JSON
+
+Stateful endpoints
+
+In-memory counters
+
+Request header inspection
+
+🔹 Automation & DevOps Basics
+
+Bash scripting
+
+Health check automation
+
+Logging failures
+
+Cron job scheduling
+
+Task automation mindset
+
+Packaging builds (zip)
+
+Generating checksums (SHA1)
+
+File structure discipline
+
+🔹 Code Quality & CI Practices
+
+Pre-commit hooks (Husky)
+
+Secret prevention (.env blocking)
+
+Code formatting enforcement
+
+.gitignore best practices
+
+Validation before commit
+
+Mini CI pipeline thinking
+
